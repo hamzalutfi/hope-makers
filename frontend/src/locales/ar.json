@@ -15,7 +15,7 @@
   "Donate" : "التبرع",
   "Profile" : "الحساب",
   "security" : "الأمان",
-  "h1home":"تَمْكينُ الأَشْخاصِ ذَوي الالهِمَمِ",
+  "h1home":"تَمْكينُ الأَشْخاصِ ذَوي الهمم",
   "p1home" : "مَعًا، يُمكِنُنا إحداثَ فَرْقٍ.",
   "a1home" : "لنبدأ الآن!",
   "h2home": "لماذا اخترنا الأَشخاص ذوي الهمم؟",
@@ -30,7 +30,7 @@
   "description2" : "تصفح الاحتياجات وقرر الحالات التي تريد أن تساعدها.",
   "Step 3: Make a Difference" : "الخطوة 3: إصنع الفرق",
   "description3" : "تبرع أو قدم المساعدة لمن هم في حاجة إليها.",
-  "Featured Campaigns" : "الحمالات المميزة",
+  "Featured Campaigns" : "الحملات المميزة",
   "Campaign" : "حملة",
   "descriptionCampaign" : " يمكنك قراءة وصف موجز عن الحملة هنا.",
   "Edit Personal Information" : "تعديل المعلومات الشخصية",
@@ -191,8 +191,41 @@
   "Your donation covered 10% of the campaign goal." : "لقد غطت تبرعاتكم 10% من هدف الحملة.",
   "Your donation is being processed.": "تبرعك قيد المعالجة." ,
   "Type" : "النوع : ",
-  "you have to complete your profile first" :"يجب عليك ان تكمل حسابك اولا"
-  
+  "you have to complete your profile first" :"يجب عليك ان تكمل حسابك اولا",
+  "DonationType" : "نوع التبرع",
+  "ab1":"تمكين الأفراد ذوي الإعاقة من الوصول إلى إمكاناتهم الكاملة وخلق عالم من الاحتمالات التي لا نهاية لها.",
+  "Our Vision":"رؤيتنا",
+  "We envision a world where disability is recognized as a natural part of human diversity, where every individual has the opportunity to thrive, and where communities are enriched by the full participation of all their members.":"نحن نتصور عالماً يتم فيه الاعتراف بالإعاقة كجزء طبيعي من التنوع البشري، حيث يتمتع كل فرد بفرصة النجاح، وحيث يتم إثراء المجتمعات من خلال المشاركة الكاملة لجميع أعضائها.",
+  "Be a Hope Maker":"كن صانعا للأمل",
+  "Your support can change lives. Join us in creating a world where everyone has the opportunity to reach their full potential.":"دعمك قد يغير حياة الناس. انضم إلينا في خلق عالم حيث تتاح الفرصة للجميع لتحقيق إمكاناتهم الكاملة.",
+  "Donate Now":"تبرع الآن",
+  "Our Story":"قصتنا",
+  "ab2":"وُلدت مبادرة صُنَّاعُ الأَمَل من فكرة بسيطة لكنها قوية: كل فرد، بغض النظر عن قدراته، يستحق فرصة النجاح. بدأت رحلتنا عندما اجتمعت مجموعة من المدافعين المتحمسين، متحدين بتجاربهم مع الإعاقة ورؤيتهم لعالم أكثر شمولاً.",
+  "ab3":"اليوم، أصبحنا مجتمعًا نابضًا بالحياة من صناع التغيير والمبتكرين والحالمين. نحن لا نقدم الدعم فحسب؛ بل نعمل على إحداث ثورة في الطريقة التي ينظر بها المجتمع إلى الإعاقة ويتفاعل معها.",
+  "Our Impact":"تأثيرنا",
+  "Meet Our Team":"تعرف على فريقنا",
+  "Developer" :"مُطور",
+  "Mohammed shker":"محمد شقير",
+  "Bayan Hamad" : "بيان حمد",
+  "Hamzeh lutfi":"حمزة لطفي",
+  "lifeTouched": "حياة تم تغييرها",
+  "Assistive devices provided" : "اجهزة مٌساعدة مقدمة",
+  "comPart": "شُركاؤنا",
+  "Menu": "القائمة",
+  "Mobility Devices for Independence":"أجهزة التنقل من أجل الاستقلال",
+  "Help provide wheelchairs, walkers, and prosthetics to individuals with physical disabilities, giving them the freedom to move independently.":"المساعدة في توفير الكراسي المتحركة، والمشايات، والأطراف الاصطناعية للأفراد ذوي الإعاقات الجسدية، ومنحهم الحرية في التحرك بشكل مستقل.",
+  "Hearing Aids for the Hearing Impaired":"أجهزة السمع للأشخاص الذين يعانون من ضعف السمع",
+  "Raise funds to distribute hearing aids to individuals with hearing impairments, enabling them to reconnect with the world around them.":"جمع التبرعات لتوزيع أجهزة السمع على الأفراد الذين يعانون من ضعف السمع، وتمكينهم من إعادة الاتصال بالعالم من حولهم.",
+  "Therapy for Children with Autism":"العلاج للأطفال المصابين بالتوحد",
+  "Contribute to therapy sessions, learning tools, and support programs for children with autism and their families.":"المساهمة في جلسات العلاج وأدوات التعلم وبرامج الدعم للأطفال المصابين بالتوحد وأسرهم."
+
+
+
+
+
+
+
+
 
 
 

@@ -173,38 +173,7 @@ const SignUpForm = ({ logoHeader }) => {
               />
             </form>
 
-            <div className="mt-6 text-sm">
-              <a
-                href="#"
-                className={`hover:underline mr-4 ${
-                  theme === "dark"
-                    ? "text-gray-400 hover:text-gray-300"
-                    : "text-gray-500 hover:text-gray-700"
-                }`}
-              >
-                {t("Privacy Policy")}
-              </a>
-              <a
-                href="#"
-                className={`hover:underline mr-4 ${
-                  theme === "dark"
-                    ? "text-gray-400 hover:text-gray-300"
-                    : "text-gray-500 hover:text-gray-700"
-                }`}
-              >
-                {t("Community Guidelines")}
-              </a>
-              <a
-                href="#"
-                className={`hover:underline ${
-                  theme === "dark"
-                    ? "text-gray-400 hover:text-gray-300"
-                    : "text-gray-500 hover:text-gray-700"
-                }`}
-              >
-                {t("Language")}
-              </a>
-            </div>
+            
           </div>
         </div>
       </div>

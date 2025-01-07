@@ -70,26 +70,28 @@ const HomePage = () => {
   // Dummy Campaign Data
   const dummyCampaigns = [
     {
-      title: "Education for All",
+      title: t("Mobility Devices for Independence"),
       description:
-        "Help us provide educational resources and scholarships to underprivileged children in rural areas. Every donation makes a difference!",
-      image: "https://via.placeholder.com/400x200?text=Education+for+All",
+        t("Help provide wheelchairs, walkers, and prosthetics to individuals with physical disabilities, giving them the freedom to move independently."),
+      image: "wheelchair.jpg",
     },
     {
-      title: "Clean Water Initiative",
+      title: t("Hearing Aids for the Hearing Impaired"),
       description:
-        "Support our mission to build clean water wells in communities that lack access to safe drinking water. Together, we can save lives.",
-      image: "https://via.placeholder.com/400x200?text=Clean+Water+Initiative",
+        t("Raise funds to distribute hearing aids to individuals with hearing impairments, enabling them to reconnect with the world around them."),
+        image: "hearing.jpg",
+
     },
     {
-      title: "Disability Support Program",
+      title: t("Therapy for Children with Autism"),
       description:
-        "Join us in providing assistive devices, therapy, and support to individuals with disabilities. Your contribution can change lives.",
-      image: "https://via.placeholder.com/400x200?text=Disability+Support+Program",
+        t("Contribute to therapy sessions, learning tools, and support programs for children with autism and their families."),
+        image: "aes.jpg",
+
     },
     
   ];
-
+  
   return (
     <div dir={language === "en" ? "ltr" : "rtl"} className="!w-full">
       {/* Hero Section */}
@@ -267,7 +269,7 @@ const ContentGrid = ({ title, items }) => (
               <img
                 src={item.image}
                 alt={`Visual representation of ${item.title}`}
-                className="w-full h-48 object-cover mb-4"
+                className="w-full h-60  mb-4"
               />
             )}
             <h3 className="text-lg font-bold text-gray-800 dark:text-gray-100">

@@ -79,7 +79,7 @@ const DonatePage = () => {
           onChange={(e) => setSearchTerm(t(e.target.value))}
           className="w-full sm:w-1/3 p-2 border border-gray-300 dark:border-gray-600 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-800 dark:text-gray-200"
         />
-        <label htmlFor="disabilityTypeFilter">Disability Type</label>
+        <label htmlFor="disabilityTypeFilter">{t("Disability Type")}</label>
         <select
           id="disabilityTypeFilter"
           value={disabilityTypeFilter}
@@ -95,7 +95,7 @@ const DonatePage = () => {
           <option value="mental">{t("Mental")}</option>
           <option value="learning">{t("Learning")}</option>
         </select>
-        <label htmlFor="donationTypeFilter">Donation Type</label>
+        <label htmlFor="donationTypeFilter">{t("Donation Type:")}</label>
         <select
           id="donationTypeFilter"
           value={donationTypeFilter}

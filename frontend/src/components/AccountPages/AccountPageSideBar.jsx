@@ -192,25 +192,21 @@ const AccountPageSidebar = ({ isOpen }) => {
               iconClasses={"fa-solid fa-circle fa-circle-info"}
             />
           </NavLink>
-        </div>
 
-        <div className="flex flex-col w-full space-y-4 sticky !bottom-5">
-  {!authenticated ? (
+
+          {!authenticated ? (
     <NavLink
           tabIndex={0}
 
       to="/pages/login"
       className={({ isActive }) =>
-        `flex items-center space-x-4 px-4 py-3 rounded-lg transition-all ${
-          isActive
-            ? theme === "dark"
-              ? "bg-blue-600 text-white shadow-lg" // Active state in dark mode
-              : "bg-blue-100 text-blue-900 shadow-md" // Active state in light mode
-            : theme === "dark"
-            ? "text-gray-300 bg-blue-500 hover:bg-blue-700" // Default state in dark mode
-            : "text-white bg-blue-500 hover:bg-blue-700" // Default state in light mode
-        }`
-      }
+              `flex items-center space-x-4 px-4 py-3 rounded-lg transition-all ${isActive
+                ? "bg-blue-500 text-white shadow-lg"
+                : theme === "dark"
+                  ? "text-gray-300 hover:bg-gray-800"
+                  : "text-gray-700 hover:bg-gray-100"
+              }`
+            }
     >
       <SideBarItem
         title={t("Login")}
@@ -242,7 +238,9 @@ const AccountPageSidebar = ({ isOpen }) => {
   ) : (
     ""
   )}
-</div>
+        </div>
+
+       
 
       </div>
     </aside>
